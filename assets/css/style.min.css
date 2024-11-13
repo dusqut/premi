@@ -41,13 +41,22 @@
 }
 
 .bt {
-  position: absolute; /* Change to absolute to position it within the parent container */
-  top: 80%; /* Adjust based on the desired vertical position */
-  left: 35%; /* Adjust based on the desired horizontal position */
+  position: absolute; /* Change to absolute positioning */
+  top: 100%; /* Adjust the vertical position */
+  left: 50%; /* Center it horizontally relative to its parent */
+  transform: translate(-50%, -50%); /* Center alignment correction */
   border-radius: 3em;
   padding: 1.2em 1em;
-  transform: translate(-50%, -50%);
-  background-image: linear-gradient(90deg, #3e56a7, #04acff, #eaaaaa, #e11adc, #a0a00f, #3e56a7, #14accc);
+  background-image: linear-gradient(
+    90deg,
+    #3e56a7,
+    #04acff,
+    #eaaaaa,
+    #e11adc,
+    #a0a00f,
+    #3e56a7,
+    #14accc
+  );
   background-size: 400%;
 }
 
@@ -73,4 +82,5 @@ a:hover {
     box-shadow: 0 0 0.8em #3e56a7;
   }
 }
+
 
