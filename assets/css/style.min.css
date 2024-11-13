@@ -41,28 +41,16 @@
 }
 
 .bt{
-  position:absolute;
+  position: absolute;
   top:50%;
   left:50%;
-  border-radius : 3em;
+  border-radius: 3em;
   padding:1.2em 1em;
   transform: translate(-50%,-50%);
   background-image: linear-gradient(90deg,#3e56a7,#04acff,#eaaaaa,#e11adc,#a0a00f,#3e56a7,#14accc);
   background-size:400%;
 }
-a{
-  letter-spacing:.2em;
-  font-weight:600;
-  font-size: 1.5em;
-  padding:.6em 1.6em;
-  background-color:black;
-  font-family: 'Raleway', sans-serif;
-  text-transform: Uppercase;
-  color:white;
-  border-radius : 1.5em;
-  text-align:center;
-  text-decoration:none;
-}
+
 .bt:hover{
   animation: animate 3s ease-out infinite;
 }
