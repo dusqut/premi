@@ -40,10 +40,10 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.btn {
+.bt {
   position: relative;
   margin: 0 auto;
-  width: var(--btn-w);
+  width: var(--bt-w);
   color: var(--primary);
   border: .15em solid var(--primary);
   border-radius: 5em;
@@ -76,8 +76,8 @@
   box-shadow: 0 0 .7em var(--solid),
         0 0 2em var(--primary);
 }
-.btn:hover .dot,
-.btn:focus .dot {
+.bt:hover .dot,
+.bt:focus .dot {
   animation: atom 2s infinite linear;
   display: block;
 }
