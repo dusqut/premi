@@ -83,6 +83,27 @@ a:hover {
   }
 }
 
+.menu-button {
+  position: absolute;
+  top: 0; /* Align to the top of the Telegram icon */
+  left: 0; /* Align to the left of the Telegram icon */
+  transform: translate(10%, 10%); /* Adjust these values to fine-tune position */
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 40px; /* Adjust the size */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for styling */
+  cursor: pointer;
+}
+
+.menu-button i {
+  font-size: 20px; /* Adjust the menu icon size */
+  color: #000; /* Icon color */
+}
+
 .menu-item,
 .menu-open-button {
    background: #EEEEEE;
