@@ -40,17 +40,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-:root {
-  --bg: #3C465C;
-  --primary: #78FFCD;
-  --solid: #fff;
-  --btn-w: 10em;
-  --dot-w: calc(var(--btn-w)*.2);
-  --tr-X: calc(var(--btn-w) - var(--dot-w));
-}
-* {box-sizing: border-box;}
-*:before, *:after {box-sizing: border-box;}
-
 .btn {
   position: relative;
   margin: 0 auto;
@@ -92,10 +81,4 @@
   animation: atom 2s infinite linear;
   display: block;
 }
-@keyframes atom {
-  0% {transform: translateX(0) rotate(0);}
-  30%{transform: translateX(var(--tr-X)) rotate(0);}
-  50% {transform: translateX(var(--tr-X)) rotate(180deg);}
-  80% {transform: translateX(0) rotate(180deg);}
-  100% {transform: translateX(0) rotate(360deg);}
-}
+
